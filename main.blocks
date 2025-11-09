@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="F{~Mp#;b,-yfuOyQ`msM" x="0" y="0"></block><block type="device_forever" id="?AVZIqI$QKt@J-g)ZcCk" x="237" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="M%#W1FD.0bksS@S.sBq@" x="313" y="-11"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="G+;2`a^95ZatnO1Or2hB"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="input_on_sound" id="4qs;a$MPVgR*Flc]9Ii(" x="796" y="13"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="basic_show_icon" id="`-7pXiS0,oFB~ia),zuk"><field name="i">IconNames.Ghost</field></block></statement></block><block type="device_button_event" id="|A14k%qdbYc};B}2$zuI" x="53" y="54"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="{`G,WnhOFo;-T-PMg={*"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_button_event" id="=hSU(q[N7|YG[k`iizCJ" x="38" y="225"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="oDsm}p^LS5~FffyX@?Y$"><field name="i">IconNames.Sad</field></block></statement></block><block type="device_gesture_event" id="oZ=9*MTuGZ*4DxEL77SM" x="345" y="314"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="UvkcVXb11w_gvUkn697f"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . # # # . 
+        . # # # .
+        `</field></block></statement></block><block type="input_logo_event" id="SW}tK;6Dx3{e4$sXS3~:" x="55" y="398"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="Tr}EBcY~DuAcYO^*:h,W"><field name="i">IconNames.Surprised</field></block></statement></block></xml>
